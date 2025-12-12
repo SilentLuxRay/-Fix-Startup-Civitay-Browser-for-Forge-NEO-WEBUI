@@ -1,5 +1,6 @@
-# [Fix] Startup Crash on SD WebUI Forge Neo (AttributeError: 'Namespace' object has no attribute 'ckpt_dir' / 'hypernetwork_dirs')
 
+## [Fix] Startup Crash on SD WebUI Forge Neo (AttributeError: 'Namespace' object has no attribute 'ckpt_dir' / 'hypernetwork_dirs')
+### Repository link: https://github.com/BlafKing/sd-civitai-browser-plus
 ### The Issue
 Stable Diffusion WebUI Forge "Neo" has updated its backend structure. Many command line arguments that define model paths (like `ckpt_dir`, `hypernetwork_dir`, `lora_dir`) have been renamed, removed, or converted into lists (e.g., `ckpt_dirs`).
 
